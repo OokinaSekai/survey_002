@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--  Start : Your code should be within this block -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THANK YOU"
+        android:layout_margin="10dp"
+        android:textSize="30dp"
+        android:textColor="#000001"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FOR YOUR ANSWERS!"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:textColor="#000000"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/yes"
+        android:layout_margin="50dp"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickBtn"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="SHOW RESULT"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <!-- END    : Your code should be within this block -->
+
+</LinearLayout>
